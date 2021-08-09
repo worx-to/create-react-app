@@ -1,10 +1,10 @@
 {
-  "name": "worx-react-scripts",
+  "name": "@worx-to/react-scripts",
   "version": "4.0.4",
   "description": "Worx Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/worx/create-react-app.git",
+    "url": "https://github.com/worx-to/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -15,7 +15,7 @@
     "linker": "linker distribute config --config './distribute.json'"
   },
   "bugs": {
-    "url": "https://github.com/worx/create-react-app/issues"
+    "url": "https://github.com/worx-to/create-react-app/issues"
   },
   "files": [
     "bin",
