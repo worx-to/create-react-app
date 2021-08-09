@@ -54,5 +54,8 @@
     "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "dev-linker": "^0.2.1"
   }
 }
