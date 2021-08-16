@@ -74,7 +74,7 @@ module.exports = {
   testsSetup: resolveModule(resolveApp, 'src/setupTests'),
   proxySetup: resolveApp('src/setupProxy.js'),
   appNodeModules: resolveApp('node_modules'),
-  swSrc: resolveModule(resolveApp, 'src/workers/cache/service-worker'),
+  swSrc: resolveModule(resolveApp, 'src/workers/service-worker'),
   publicUrlOrPath,
 };
 
@@ -97,7 +97,7 @@ module.exports = {
   testsSetup: resolveModule(resolveApp, 'src/setupTests'),
   proxySetup: resolveApp('src/setupProxy.js'),
   appNodeModules: resolveApp('node_modules'),
-  swSrc: resolveModule(resolveApp, 'src/workers/cache/service-worker'),
+  swSrc: resolveModule(resolveApp, 'src/workers/service-worker'),
   publicUrlOrPath,
   // These properties only exist before ejecting:
   ownPath: resolveOwn('.'),
@@ -135,7 +135,7 @@ if (
     appNodeModules: resolveOwn('node_modules'),
     swSrc: resolveModule(
       resolveOwn,
-      `${templatePath}/src/workers/cache/service-worker`
+      `${templatePath}/src/workers/service-worker`
     ),
     publicUrlOrPath,
     // These properties only exist before ejecting:
