@@ -327,11 +327,9 @@ module.exports = function (webpackEnv) {
     module: {
       strictExportPresence: true,
       rules: [
-<<<<<<< HEAD
         // Disable require.ensure as it's not a standard language feature.
         { parser: { requireEnsure: false } },
         { test: /\.worker\.ts$/, loader: 'worker-loader' },
-=======
         // Handle node_modules packages that contain sourcemaps
         shouldUseSourceMap && {
           enforce: 'pre',
@@ -339,7 +337,6 @@ module.exports = function (webpackEnv) {
           test: /\.(js|mjs|jsx|ts|tsx|css)$/,
           loader: require.resolve('source-map-loader'),
         },
->>>>>>> main
         {
           // "oneOf" will traverse all following loaders until one will
           // match the requirements. When no loader matches it will fall
